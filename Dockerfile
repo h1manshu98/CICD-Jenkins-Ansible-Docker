@@ -7,10 +7,10 @@ RUN cd
 RUN yum install httpd -y \
   zip \
  unzip 
-ADD https://www.free-css.com/assets/files/free-css-templates/download/page280/sungla.zip /var/www/html/
+ADD https://www.free-css.com/assets/files/free-css-templates/download/page282/metal.zip /var/www/html/
 WORKDIR /var/www/html/
-RUN unzip sungla.zip
-RUN cp -rvf html/* .
-RUN rm -rf html sungla.zip
+RUN unzip metal.zip
+RUN cp -rvf metal-html/* .
+RUN rm -rf metal-html metal.zip
 ENTRYPOINT ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
 EXPOSE 80
