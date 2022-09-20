@@ -12,5 +12,5 @@ WORKDIR /var/www/html/
 RUN unzip sungla.zip
 RUN cp -rvf html/* .
 RUN rm -rf html sungla.zip
-ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+ENTRYPOINT ["/usr/sbin/httpd", "-D", "FOREFROUND"]
 EXPOSE 80
