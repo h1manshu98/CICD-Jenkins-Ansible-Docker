@@ -13,4 +13,4 @@ RUN unzip metal.zip
 RUN cp -rvf metal-html/* .
 RUN rm -rf metal-html metal.zip
 ENTRYPOINT ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 
