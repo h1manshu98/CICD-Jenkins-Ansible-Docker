@@ -1,0 +1,7 @@
+•	Created a CICD pipeline to Deploy a Webpage on docker container.
+•	In this project the Developer creates Dockerfile and pushes it to Github.
+•	Github and Jenkins are integrated so the freestyle job runs.
+•	In the job jenkins-server send dockerfile to ansible server.
+•	Ansible server creates docker image from dockerfile and pushes it to DockerHub.
+•	Docker host pulls the latest image from docker hub and creates a container that run the webpage.
+•	Technologies used – AWS, EC2, Linux, Git, Github, Jenkins, Ansible, Docker, Dockerfile, DockerHub, Css-Templetes.
