@@ -10,5 +10,5 @@
       shell: docker image rmi h1manshu98/myjob
       ignore_errors: yes
     - name: create new container
-      shell: docker container run -itd --name mycont --restart=always h1manshu98/myjob  -p 9000:80
+      shell: docker container run -itd --name mycont --restart=always h1manshu98/myjob  -p 9000:80 
 
