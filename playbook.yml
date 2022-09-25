@@ -1,0 +1,14 @@
+- hosts: all
+  tasks:
+    - name: stop container
+      shell: docker container stop mycont
+      ignore_errors: yes 
+    - name: remove container
+      shell: docker container rm mycont
+      ignore_errors: yes
+    - name: remove docker image
+      shell: docker image rmi h1manshu98/myjob
+      ignore_errors: yes
+    - name: create new container
+      shell: docker container run -itd --name mycont --restart=always h1manshu98/myjob  -p 9000:80
+
