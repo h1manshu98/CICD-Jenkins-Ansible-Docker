@@ -28,7 +28,7 @@ Step-1]	Create 3-AWS EC2 Linux instances
 Step-2]	Connect to these instance.  [ using public-IP via putty and set'Connection as 10'] (optional)
  
 
-Step-3] Install required packages on each server and Configure servers-
+Step-3] Install required packages on each server and Configure servers -
 
 
 	Jenkins Server
