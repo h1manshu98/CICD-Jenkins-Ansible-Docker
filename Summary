@@ -5,3 +5,5 @@
 •	Ansible server creates docker image from dockerfile and pushes it to DockerHub.
 •	Docker host pulls the latest image from docker hub and creates a container that run the webpage.
 •	Technologies used – AWS, EC2, Linux, Git, Github, Jenkins, Ansible, Docker, Dockerfile, DockerHub, Css-Templetes.
+
+😊 H A P P Y    L E A R N I N G
